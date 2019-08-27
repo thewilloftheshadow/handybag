@@ -1,0 +1,27 @@
+{
+  "name": "handybag",
+  "version": "0.0.1",
+  "description": "A kit of tools for use by discord.js developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thewilloftheshadow/handybag.git"
+  },
+  "keywords": [
+    "discord.js",
+    "discord",
+    "tools",
+    "utilities",
+    "handybag"
+  ],
+  "author": "Shadow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thewilloftheshadow/handybag/issues"
+  },
+  "homepage": "https://github.com/thewilloftheshadow/handybag#readme"
+}
