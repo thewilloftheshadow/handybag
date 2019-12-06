@@ -11,6 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/thewilloftheshadow/handybag.git"
   },
+  "dependencies": {
+    "discord.js": "latest",
+    "node-cmd": "latest"
+  }
   "keywords": [
     "discord.js",
     "discord",
