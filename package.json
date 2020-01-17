@@ -1,6 +1,6 @@
 {
   "name": "handybag",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A kit of tools for use by discord.js developers",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/thewilloftheshadow/handybag.git"
   },
   "dependencies": {
-    "discord-giveaways": "latest",
+    "discord-giveaways": "^3.0.6",
     "discord.js": "^11.5.1",
     "node-cmd": "^3.0.0",
     "prettier": "^1.19.1"
