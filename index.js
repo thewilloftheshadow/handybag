@@ -4,5 +4,5 @@ const package = require("package.json")
 
 module.exports = {
 giveaways: giveaways,
-version: config.version;
+version: package.version
 }
