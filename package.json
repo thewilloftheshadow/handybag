@@ -12,9 +12,9 @@
     "url": "git+https://github.com/thewilloftheshadow/handybag.git"
   },
   "dependencies": {
-    "discord.js": "latest",
-    "node-cmd": "latest",
-    "discord-giveaways": "latest"
+    "discord-giveaways": "latest",
+    "discord.js": "^11.5.1",
+    "node-cmd": "latest"
   },
   "keywords": [
     "discord.js",

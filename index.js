@@ -1,4 +1,4 @@
-const Discord = require("discord-js")
+const Discord = require("discord.js")
 const giveaways = require("discord-giveaways")
 const package = require("package.json")
 
