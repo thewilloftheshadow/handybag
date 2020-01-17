@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node test.js",
     "start": "node .",
-    "format": "prettier --write"
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
