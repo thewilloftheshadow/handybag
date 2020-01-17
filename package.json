@@ -4,8 +4,8 @@
   "description": "A kit of tools for use by discord.js developers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "node test.js",
+    "start": "node ."
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "discord.js": "latest",
-    "node-cmd": "latest"
+    "node-cmd": "latest",
+    "discord-giveaways": "latest"
   }
   "keywords": [
     "discord.js",
