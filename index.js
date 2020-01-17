@@ -4,7 +4,7 @@ const package = require("./package.json")
 
 module.exports = {
 giveaways: giveaways,
-version: package.version
+version: package.version,
 mutualservers: function(userid){
 let mutualservers = [];
   client.guilds.forEach(guild => {
