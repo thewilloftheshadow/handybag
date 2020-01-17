@@ -14,7 +14,8 @@
   "dependencies": {
     "discord-giveaways": "latest",
     "discord.js": "^11.5.1",
-    "node-cmd": "latest"
+    "node-cmd": "^3.0.0",
+    "prettier": "^1.19.1"
   },
   "keywords": [
     "discord.js",
