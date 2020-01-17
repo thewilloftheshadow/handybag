@@ -17,9 +17,9 @@ module.exports = {
     if (mutualservers === []) return false;
     return mutualservers;
   },
-glitchinvite: function(){
-if(process.env.PROJECT_INVITE_TOKEN) return `https://glitch.com/edit/#!/join/${process.env.PROJECT_INVITE_TOKEN}`
-return false
-}
-
+  glitchinvite: function() {
+    if (process.env.PROJECT_INVITE_TOKEN)
+      return `https://glitch.com/edit/#!/join/${process.env.PROJECT_INVITE_TOKEN}`;
+    return false;
+  }
 };
