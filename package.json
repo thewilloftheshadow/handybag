@@ -15,7 +15,7 @@
     "discord.js": "latest",
     "node-cmd": "latest",
     "discord-giveaways": "latest"
-  }
+  },
   "keywords": [
     "discord.js",
     "discord",
