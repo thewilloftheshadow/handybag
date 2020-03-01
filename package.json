@@ -13,7 +13,7 @@
     "url": "git+https://github.com/thewilloftheshadow/handybag.git"
   },
   "dependencies": {
-    "discord.js": "^11.5.1",
+    "discord.js": "^12.0.0",
     "node-cmd": "^3.0.0",
     "prettier": "^1.19.1"
   },
