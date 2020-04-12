@@ -1,6 +1,6 @@
 {
   "name": "handybag",
-  "version": "0.1.0a",
+  "version": "0.1.1",
   "description": "A kit of tools for use by discord.js developers",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/thewilloftheshadow/handybag.git"
   },
   "dependencies": {
-    "discord.js": "^12.0.0",
+    "discord.js": "^12.1.1",
     "node-cmd": "^3.0.0",
     "prettier": "^1.19.1"
   },
@@ -25,7 +25,7 @@
     "handybag"
   ],
   "author": "Shadow",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/thewilloftheshadow/handybag/issues"
   },
