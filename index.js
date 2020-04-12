@@ -3,11 +3,11 @@ const package = require("./package.json");
 
 module.exports = {
   version: package.version,
-  mutualservers: function(userid) {
+  mutualservers: function(client, userid) {
     let mutualservers = [];
-    client.guilds.forEach(guild => {
+    client.guilds.cache.forEach(guild => {
       let guildobj = { name: guild.name, id: guild.id };
-      let guildmember = guild.members.get(userid);
+      let guildmember = guild.members.cache.get(userid);
       if (guildmember) {
         mutualservers.push(guildobj);
       }
