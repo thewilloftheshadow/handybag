@@ -4,7 +4,6 @@
   "description": "A kit of tools for use by discord.js developers",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
     "start": "node .",
     "format": "prettier --write index.js"
   },
