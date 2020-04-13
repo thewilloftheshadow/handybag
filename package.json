@@ -1,11 +1,12 @@
 {
   "name": "handybag",
-  "version": "0.1.2",
+  "version": "0.1.2a",
   "description": "A kit of tools for use by discord.js developers",
   "main": "index.js",
   "scripts": {
     "start": "node .",
-    "format": "prettier --write index.js"
+    "format": "prettier --write index.js",
+    "jsdoc": "jsdoc --package ./package.json -r ./README.md -d docs -t ./node_modules/ink-docstrap/template index.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +14,10 @@
   },
   "dependencies": {
     "discord.js": "^12.1.1",
-    "node-cmd": "^3.0.0",
+    "node-cmd": "^3.0.0"
+  },
+  "devDependencies": {
+    "ink-docstrap": "latest",
     "prettier": "^1.19.1"
   },
   "keywords": [
