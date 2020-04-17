@@ -1,6 +1,6 @@
 {
   "name": "handybag",
-  "version": "0.1.2a",
+  "version": "0.1.2b",
   "description": "A kit of tools for use by discord.js developers",
   "main": "index.js",
   "scripts": {
