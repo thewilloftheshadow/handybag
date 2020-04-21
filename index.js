@@ -8,7 +8,7 @@ const pkg = require("./package.json");
  */
 const mutualservers = (client, userid) => {
   let mutualservers = [];
-  client.guilds.cache.forEach(guild => {
+  client.guilds.cache.forEach((guild) => {
     let guildobj = { name: guild.name, id: guild.id };
     let guildmember = guild.members.cache.get(userid);
     if (guildmember) {
@@ -31,5 +31,5 @@ const glitchinvite = () => {
 module.exports = {
   version: pkg.version,
   mutualservers: mutualservers,
-  glitchinvite: glitchinvite
+  glitchinvite: glitchinvite,
 };
